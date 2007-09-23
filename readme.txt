@@ -30,4 +30,4 @@ Most people will not want to (and should not) disable this feature. It's a fanta
 
 = Can I disable the plugin update notifications too? =
 
-Yes. Please see the [Disable WordPress Plugin Updates](http://wordpress.org/extend/plugins/disable-wordpress-plugin-updates/) plugin (coming soon).
+Yes. Please see the [Disable WordPress Plugin Updates](http://wordpress.org/extend/plugins/disable-wordpress-plugin-updates/) plugin.
