@@ -3,10 +3,10 @@
 Plugin Name: Disable WordPress Core Update
 Description: Disables the WordPress core update checking and notification system.
 Plugin URI:  http://lud.icro.us/disable-wordpress-core-update/
-Version:     1.1
+Version:     1.2
 Author:      John Blackbourn
 Author URI:  http://johnblackbourn.com/
-Props:       Matt Mullenweg
+Props:       Matt Mullenweg and _ck_
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@ Props:       Matt Mullenweg
 
 */
 
-add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_check' );" ) );
+add_action( 'init', create_function( '$a', "remove_action( 'init', 'wp_version_check' );" ), 2 );
 add_filter( 'pre_option_update_core', create_function( '$a', "return null;" ) );
 
 ?>

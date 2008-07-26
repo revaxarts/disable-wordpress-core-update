@@ -2,14 +2,14 @@
 Contributors: johnbillion
 Tags: disable, core update
 Requires at least: 2.3
-Tested up to: 2.5
+Tested up to: 2.6
 Stable tag: trunk
 
 Disables the WordPress core update checking and notification system.
 
 == Description ==
 
-Completely disables the core update checking system which is a new feature in WordPress 2.3. The plugin prevents WordPress from checking for updates, and prevents any notifications from being displayed in the admin area. Ideal for administrators of multiple WordPress installations.
+Completely disables the core update checking system in WordPress 2.3 and later. The plugin prevents WordPress from checking for updates, and prevents any notifications from being displayed in the admin area. Ideal for administrators of multiple WordPress installations.
 
 = Please note! =
 
@@ -17,7 +17,7 @@ It's *very* important that you keep your WordPress installation(s) up to date. I
 
 == Installation ==
 
-This plugin is only for WordPress 2.3 or later. Earlier versions of WordPress did not have the core update notification system, therefore do not need this plugin.
+This plugin is only for WordPress 2.3 and later. Earlier versions of WordPress did not have the core update notification system, therefore do not need this plugin.
 
 1. Unzip the ZIP file and drop the folder straight into your `wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
@@ -26,7 +26,7 @@ This plugin is only for WordPress 2.3 or later. Earlier versions of WordPress di
 
 = Why would I want to disable the core update system? =
 
-Most people will not want to (and should not) disable this feature. It's a fantastic addition to WordPress and I'm fully in support of it. However, administrators who maintain multiple installations of WordPress on behalf of other people (eg. clients) may not want update notifications to be shown to the users of these installations. This plugin is for them.
+Most people will not want to (and should not) disable this feature. It's a fantastic feature of WordPress and I'm fully in support of it. However, administrators who maintain multiple installations of WordPress on behalf of other people (eg. clients) may not want update notifications to be shown to the users of these installations. This plugin is for them.
 
 = Can I disable the plugin update notifications too? =
 
