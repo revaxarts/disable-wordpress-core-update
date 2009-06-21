@@ -2,7 +2,7 @@
 Contributors: johnbillion
 Tags: disable, core update
 Requires at least: 2.3
-Tested up to: 2.7
+Tested up to: 2.8
 Stable tag: trunk
 
 Disables the WordPress core update checking and notification system.
@@ -31,3 +31,18 @@ Most people will not want to (and should not) disable this feature. It's a fanta
 = Can I disable the plugin update notifications too? =
 
 Yes. Please see the [Disable WordPress Plugin Updates](http://wordpress.org/extend/plugins/disable-wordpress-plugin-updates/) plugin.
+
+= Can I disable the theme update notifications too? =
+
+Yes. Please see the [Disable WordPress Theme Updates](http://wordpress.org/extend/plugins/disable-wordpress-theme-updates/) plugin.
+
+== Changelog ==
+
+= 1.3 =
+* Support for WordPress 2.8.
+
+= 1.2 =
+* Bugfix to completely prevent any communication with api.wordpress.org.
+
+= 1.1 =
+* Initial release.
