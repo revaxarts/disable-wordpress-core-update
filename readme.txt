@@ -1,8 +1,9 @@
 === Disable WordPress Core Update ===
 Contributors: johnbillion
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7338829
 Tags: disable, core update
 Requires at least: 2.3
-Tested up to: 2.8
+Tested up to: 2.8.4
 Stable tag: trunk
 
 Disables the WordPress core update checking and notification system.
