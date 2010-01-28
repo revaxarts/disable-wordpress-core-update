@@ -3,22 +3,20 @@ Contributors: johnbillion
 Donate link: http://lud.icro.us/donations/
 Tags: disable, core update
 Requires at least: 2.3
-Tested up to: 2.8.4
+Tested up to: 3.0
 Stable tag: trunk
 
 Disables the WordPress core update checking and notification system.
 
 == Description ==
 
-Completely disables the core update checking system in WordPress 2.3 and later. The plugin prevents WordPress from checking for updates, and prevents any notifications from being displayed in the admin area. Ideal for administrators of multiple WordPress installations.
+Completely disables the core update checking system in WordPress. The plugin prevents WordPress from checking for updates, and prevents any notifications from being displayed in the admin area. Ideal for administrators of multiple WordPress installations.
 
 = Please note! =
 
 It's *very* important that you keep your WordPress installation(s) up to date. If you don't, your blog or website could be susceptible to security vulnerabilities or performance issues. If you use this plugin, you must make sure you keep yourself informed of new WordPress releases and update your WordPress installation(s) as new versions are released.
 
 == Installation ==
-
-This plugin is only for WordPress 2.3 and later. Earlier versions of WordPress did not have the core update notification system, therefore do not need this plugin.
 
 1. Unzip the ZIP file and drop the folder straight into your `wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
@@ -38,6 +36,9 @@ Yes. Please see the [Disable WordPress Plugin Updates](http://wordpress.org/exte
 Yes. Please see the [Disable WordPress Theme Updates](http://wordpress.org/extend/plugins/disable-wordpress-theme-updates/) plugin.
 
 == Changelog ==
+
+= 1.4 =
+* Preemptive support for WordPress 3.0.
 
 = 1.3 =
 * Support for WordPress 2.8.
