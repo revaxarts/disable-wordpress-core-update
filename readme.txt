@@ -1,4 +1,4 @@
-=== Disable WordPress Core Update ===
+=== Disable WordPress Core Updates ===
 Contributors: johnbillion
 Donate link: http://lud.icro.us/donations/
 Tags: disable, core update

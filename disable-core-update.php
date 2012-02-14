@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:  Disable WordPress Core Update
+Plugin Name:  Disable WordPress Core Updates
 Description:  Disables the WordPress core update checking and notification system.
 Plugin URI:   http://lud.icro.us/disable-wordpress-core-update/
 Version:      1.4
