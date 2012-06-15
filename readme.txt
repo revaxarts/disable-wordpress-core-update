@@ -3,7 +3,7 @@ Contributors: johnbillion
 Donate link: http://lud.icro.us/donations/
 Tags: disable, core update
 Requires at least: 2.3
-Tested up to: 3.3
+Tested up to: 3.4
 Stable tag: trunk
 
 Disables the WordPress core update checking and notification system.
