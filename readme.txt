@@ -11,13 +11,11 @@ Disables WordPress core update checks and notifications.
 
 Completely disables the core update checking system in WordPress. This prevents WordPress from checking for core updates, and prevents any notifications from being displayed in the admin area. Ideal for administrators of multiple WordPress installations.
 
-Want more fine-grained control? Try the [Update Control plugin](http://wordpress.org/plugins/update-control/).
-
-See also: [Disable WordPress Plugin Updates](http://wordpress.org/extend/plugins/disable-wordpress-plugin-updates/) and [Disable WordPress Theme Updates](http://wordpress.org/extend/plugins/disable-wordpress-theme-updates/).
-
 = Please note! =
 
 It's *very* important that you keep your WordPress installation(s) up to date. If you don't, your blog or website could be susceptible to security vulnerabilities or performance issues. If you use this plugin, you must make sure you keep yourself informed of new WordPress releases and update your WordPress installation(s) as new versions are released.
+
+See also: [Disable WordPress plugin updates](http://wordpress.org/plugins/disable-wordpress-plugin-updates/) and [Disable WordPress theme updates](http://wordpress.org/plugins/disable-wordpress-theme-updates/).
 
 == Installation ==
 
