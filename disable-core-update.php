@@ -33,4 +33,11 @@ remove_action( 'admin_init', '_maybe_update_core' );
 add_filter( 'pre_transient_update_core', create_function( '$a', "return null;" ) );
 
 # 3.0+:
-add_filter( 'pre_site_transient_update_core', create_function( '$a', "return null;" ) );
+add_filter( 'site_transient_update_core', 'disable_wordpress_core_update' );
+
+function disable_wordpress_core_update ($transient) {
+
+	if(isset($transient->updates)) $transient->updates = array();
+
+	return $transient;
+}
